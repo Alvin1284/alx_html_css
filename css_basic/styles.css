@@ -114,6 +114,14 @@ section {
 
 body {
     line-height: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
 }
 
 blockquote,
@@ -152,7 +160,10 @@ header {
     font-family: 'Yeseva One', sans-serif;
 }
 
-/* article {} */
+article {
+    flex: 2;
+    overflow-y: auto;
+}
 
 header {
     border-bottom: 1px solid rgb(221, 221, 221);
@@ -165,6 +176,8 @@ header a {
 
 aside {
     background: #FAFAFA;
+    flex: 1;
+    overflow-y: auto;
 }
 
 aside p {
