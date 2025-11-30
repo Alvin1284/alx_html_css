@@ -140,6 +140,14 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    border: #171616 solid 2px;
+    width: 60%;
+}
+
+th, td {
+    border: #171616 solid 1px;
+    padding: 5px;
+    text-align: left;
 }
 
 
@@ -158,6 +166,7 @@ h5,
 h6,
 header {
     font-family: 'Yeseva One', sans-serif;
+    color: royalblue;
 }
 
 article {
@@ -168,6 +177,7 @@ article {
 header {
     border-bottom: 1px solid rgb(221, 221, 221);
     transition: border-bottom-color 1s ease;
+    background-color: aqua;
 }
 
 header a {
